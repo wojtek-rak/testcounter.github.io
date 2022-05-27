@@ -4,6 +4,20 @@ You can use the [editor on GitHub](https://github.com/wojtek-rak/testcounter.git
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+<html>
+<body>
+<div>
+   <script src="https://app.ticos-systems.cloud/scripts/AngularEmbeddedCounter.js"></script>
+   <app-ticos-counter tenant="2126"
+                               interval="10000"
+                               organizations="[30288]"
+                               displays='["Ticos Systems - Hallenbad""]'>
+   </app-ticos-counter>
+</div>
+</body>
+</html>
+
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
